@@ -14,12 +14,13 @@ rebar 启动方式
     
     worker:start(输入线程条数).
 普通启动方式
-  c:cd("目标文件路径").
-  
-  c(目标文件名).
-  
-  num_app:start(num_sup,[]).
-  
-  worker:start(输入线程条数).
-  
-  Good Luck!
+
+    c:cd("目标文件路径").
+      
+    c(目标文件名).
+      
+    num_app:start(num_sup,[]).
+      
+    worker:start(输入线程条数).
+    
+    Good Luck!
