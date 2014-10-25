@@ -37,5 +37,5 @@ start_mysql() ->
 	crypto:start(),
 	application:start(emysql),
 	emysql:add_pool(pool,1,
-		"root","psswd","127.0.01",
+		"root","psswd","127.0.0.1",
 			3306,"datadbname",utf8).
