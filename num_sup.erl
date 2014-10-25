@@ -37,5 +37,5 @@ start_mysql() ->
 	crypto:start(),
 	application:start(emysql),
 	emysql:add_pool(pool,1,
-		"numberdb","dbzhidaolezcx","misszhucx.mysql.rds.aliyuncs.com",
-			3306,"callnumber",utf8).
+		"root","psswd","127.0.01",
+			3306,"datadbname",utf8).
